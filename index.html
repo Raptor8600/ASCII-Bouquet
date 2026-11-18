@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ASCII Bouquet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <canvas id="stage" aria-label="A slowly rotating hand-tied bouquet of roses with baby's breath, drawn in ASCII pixel art"></canvas>
+
+    <div class="controls">
+      <label>Style
+        <select id="style">
+          <option value="ascii">ASCII</option>
+          <option value="block">Solid pixels</option>
+        </select>
+      </label>
+      <button id="pause" type="button">Pause</button>
+    </div>
+  </main>
+  <script src="bouquet.js"></script>
+</body>
+</html>
